@@ -72,15 +72,16 @@ https://github.com/netology-code/devops-diplom-yandexcloud
 ---
 
 ## Подготовка cистемы мониторинга и деплой приложения
-Проект, кторый полтзводит установку мониторинга и приложения https://github.com/pkostua/diplom-k8s  
-Систему мониторинга я решил делать свою. потомучто  kube-prometheus мне встрелил предупреждением, о том, что это все временно и может не работать, а в bitnami не нашелся alertmanager.
-Набор манифестов деплоит Prometheus, Alertmanager, node-exporter, kube-state-metrics, Grafana. добавляет ingress nginx, вывешивает интерфейс grafana через ingress + балансировщик  на 
+Проект, кторый пороизводит установку мониторинга и приложения https://github.com/pkostua/diplom-k8s  
+Систему мониторинга я решил делать свою, потомучто  kube-prometheus меня встрелил предупреждением, о том, что это все временно и может не работать, а в bitnami не нашелся alertmanager.
+Набор манифестов деплоит Prometheus, Alertmanager, node-exporter, kube-state-metrics, Grafana, добавляет ingress nginx, вывешивает интерфейс grafana через ingress + балансировщик  на 
 
 ```
 http://grafana.pkdp.ru
 логин: admin
 пароль: MSPrd123!
 ```
+А также деплоит приложение test-app и вывешивает его через балансировщик на http://test-app.pkdp.ru
 
 Для запуска нужно
 1. Установить nginx ingress install-nginx-ingress-simple.sh
