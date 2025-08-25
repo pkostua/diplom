@@ -40,4 +40,17 @@ https://github.com/netology-code/devops-diplom-yandexcloud
     server: https://51.250.93.189:6443
 ```
 
+## Создание тестового приложения
+
+
+## Подготовка cистемы мониторинга и деплой приложения
+
+Систему мониторинга я решил делать свою. потомучто  kube-prometheus мне встрелил предупреждением, о том, что это все временно и может не работать, а в bitnami не нашелся alertmanager
+Набор манифестов деплоит Prometheus, Alertmanager, node-exporter, kube-state-metrics, Grafana. добавляет ingress nginx, вывешивает интерфейс grafana через ingress + балансировщик  на 
+
+```
+http://grafana.pkdp.ru
+логин: admin
+пароль: MSPrd123!
+```
 
