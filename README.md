@@ -94,6 +94,7 @@ http://grafana.pkdp.ru
 Просим владельца домена прописать ip адрес балансировщика для поддоменов test-app grafana.
 Сейчас приложение доступно по ссылке  
 http://test-app.pkdp.ru
+http://grafana.pkdp.ru
 
 ---
 ## Итоги
