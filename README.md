@@ -74,10 +74,9 @@ https://github.com/netology-code/devops-diplom-yandexcloud
 ## Подготовка cистемы мониторинга и деплой приложения
 Проект, кторый пороизводит установку мониторинга и приложения https://github.com/pkostua/diplom-k8s  
 Систему мониторинга я решил делать свою, потомучто  kube-prometheus меня встрелил предупреждением, о том, что это все временно и может не работать, а в bitnami не нашелся alertmanager.
-Набор манифестов деплоит Prometheus, Alertmanager, node-exporter, kube-state-metrics, Grafana, добавляет ingress nginx, вывешивает интерфейс grafana через ingress + балансировщик  на 
+Набор манифестов деплоит Prometheus, Alertmanager, node-exporter, kube-state-metrics, Grafana, добавляет ingress nginx, вывешивает интерфейс grafana через ingress + балансировщик  на http://grafana.pkdp.ru
 
 ```
-http://grafana.pkdp.ru
 логин: admin
 пароль: MSPrd123!
 ```
