@@ -18,3 +18,23 @@ https://github.com/netology-code/devops-diplom-yandexcloud
 | `YC_FOLDER_ID`   | `xxxxxxxxxxxxxxxxx`                                               |
 | `YC_SA_KEY`      | Содержимое файла `sa-key.json`                                    |
 | `SSH_PUBLIC_KEY` | Публичный ключ для доступа к нодам (должен быть у каждого девопса)|
+
+В случае успешного применения запусится и отработает action
+### github action
+<img width="1452" height="935" alt="image" src="https://github.com/user-attachments/assets/24a937d5-07b5-431e-83d9-e0d601232abf" />  
+### Последние строки лога
+<img width="1147" height="935" alt="image" src="https://github.com/user-attachments/assets/909446c7-ae6b-4f34-aa82-8d62074fdbb3" />  
+*** Примечание: время там показывают неверное. На скриншоте перезапуск изза того что на воркер ноды не хватило ресурсов. Реальное время выполенения около 20 минут.  
+
+### Результат
+<img width="1483" height="753" alt="image" src="https://github.com/user-attachments/assets/f0c086b2-ed1d-485a-b15e-e6d00f120837" />  
+На этом этапе мы можем получить файл авторизции для управления кластером
+```
+yc managed-kubernetes cluster get-credentials --id cata3me84qd2p9kj3v74 --external
+```
+В полученном конфиге нужно добавить в URL порт api k8s : 6443 
+```
+    server: https://51.250.93.189:6443
+```
+
+
