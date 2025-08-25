@@ -32,6 +32,7 @@ https://github.com/netology-code/devops-diplom-yandexcloud
 В случае успешного применения запусится и отработает action
 ### github action
 <img width="1452" height="935" alt="image" src="https://github.com/user-attachments/assets/24a937d5-07b5-431e-83d9-e0d601232abf" />  
+
 ### Последние строки лога
 <img width="1147" height="935" alt="image" src="https://github.com/user-attachments/assets/909446c7-ae6b-4f34-aa82-8d62074fdbb3" />  
 * Примечание: время там показывают неверное. На скриншоте перезапуск изза того что на воркер ноды не хватило ресурсов. Реальное время выполенения около 20 минут.  
