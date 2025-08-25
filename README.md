@@ -89,6 +89,10 @@ http://grafana.pkdp.ru
 
 Для удаления можно воспользоваться cleanup.sh
 
+### Поды мониторинга
+<img width="2360" height="558" alt="image" src="https://github.com/user-attachments/assets/bb791281-9f73-4fdc-a6f6-6606b11b9254" />
+
+
 ---
 ## Завершение
 Просим владельца домена прописать ip адрес балансировщика для поддоменов test-app grafana.
