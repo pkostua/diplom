@@ -54,6 +54,12 @@ REGISTRY_URL - URL Docker registry (например: cr.yandex\{registry_id})
 REGISTRY_PASSWORD - токен для аутентификации https://yandex.cloud/ru/docs/container-registry/operations/authentication  
 KUBE_CONFIG — содержимое kubeconfig в обычном текстовом виде, полученный на этапе подготовки инфраструктуры  
 
+При комите происходит только сборка и отправка в реестр
+<img width="1485" height="662" alt="image" src="https://github.com/user-attachments/assets/68848f9a-25a4-4de8-b25d-06d2444cff84" />
+
+
+
+
 ## Подготовка cистемы мониторинга и деплой приложения
 Проект, кторый полтзводит установку мониторинга и приложения https://github.com/pkostua/diplom-k8s  
 Систему мониторинга я решил делать свою. потомучто  kube-prometheus мне встрелил предупреждением, о том, что это все временно и может не работать, а в bitnami не нашелся alertmanager.
