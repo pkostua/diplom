@@ -54,3 +54,14 @@ http://grafana.pkdp.ru
 пароль: MSPrd123!
 ```
 
+Для запуска нужно
+1. Установить nginx ingress install-nginx-ingress-simple.sh
+2. Задеплоить моиторинг и приложение deploy.sh
+
+Для удаления можно воспользоваться cleanup.sh
+
+
+
+
+
+
