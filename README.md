@@ -3,6 +3,12 @@ https://github.com/netology-code/devops-diplom-yandexcloud
 
 ## Создание облачной инфраструктуры
 На этом этапе у нас есть яндекс облако, из кторого мы достали folder_id, cloud_id и OAuth token.  
+| Секрет           | Значение                                                                 |
+|------------------|--------------------------------------------------------------------------|
+| folder_id        |  https://yandex.cloud/ru/docs/resource-manager/operations/folder/get-id  |
+| cloud_id         | https://yandex.cloud/ru/docs/resource-manager/operations/cloud/get-id    |
+| token            | https://yandex.cloud/ru/docs/iam/concepts/authorization/oauth-token      |
+
 С помощью проекта bootstrap https://github.com/pkostua/diplom-bootstrap создаем s3 хранилище для terraform state и сервисный аккаунт для terraform.
 
 В результате работы проекта bootstrap мы получили доступы к s3 бакету. Также в yandex cloud console мы может получит файл для авторизации сервисного аккаунта sa_kay.json.
