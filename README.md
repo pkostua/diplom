@@ -5,7 +5,7 @@ https://github.com/netology-code/devops-diplom-yandexcloud
 
 ## Создание облачной инфраструктуры
 На этом этапе у нас есть яндекс облако, из кторого мы достали folder_id, cloud_id и OAuth token.  
-| Секрет           | Значение                                                                 |
+| Секрет           | описание                                                                 |
 |------------------|--------------------------------------------------------------------------|
 | folder_id        |  https://yandex.cloud/ru/docs/resource-manager/operations/folder/get-id  |
 | cloud_id         | https://yandex.cloud/ru/docs/resource-manager/operations/cloud/get-id    |
@@ -22,7 +22,7 @@ https://github.com/netology-code/devops-diplom-yandexcloud
 На этом этапе нужно создать кластер k8s. Я выбрал вариант Managed Service for Kubernetes потомучто мне он видится более отказоустойчивым за те же деньги.  
 Проект https://github.com/pkostua/diplom-infrastructure создает кластер и репозиторий для хранения образов.
 Для автоматического применения изменений необходимо в сикреты github actions добавить данные, полученный при создании инфраструктуры
-| Секрет           | Значение                                                          |
+| Секрет           | Описание                                                          |
 |------------------|-------------------------------------------------------------------|
 | `YC_CLOUD_ID`    | `xxxxxxxxxxxxxxxxxxxx`                                            |
 | `YC_FOLDER_ID`   | `xxxxxxxxxxxxxxxxx`                                               |
