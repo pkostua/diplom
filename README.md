@@ -59,7 +59,7 @@ https://github.com/netology-code/devops-diplom-yandexcloud
 ### При комите происходит только сборка и отправка в реестр
 <img width="1485" height="662" alt="image" src="https://github.com/user-attachments/assets/68848f9a-25a4-4de8-b25d-06d2444cff84" />
 
-### При создании тега сборка и деплой в кластер
+### При создании тега - сборка и деплой в кластер
 <img width="1555" height="653" alt="image" src="https://github.com/user-attachments/assets/cf76d9bb-f2f9-4550-8306-4f8a744495f7" />
 
 
