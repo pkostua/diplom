@@ -54,8 +54,8 @@ https://github.com/netology-code/devops-diplom-yandexcloud
 ---
 
 ## Создание тестового приложения
-Репозиторий приложения. https://github.com/pkostua/diplom-test-app
-Для работы автоматической сборки и деплоя требуется добавить всот такие сикреты
+Репозиторий приложения. https://github.com/pkostua/diplom-test-app  
+Для работы автоматической сборки и деплоя требуется добавить вот такие сикреты  
 
 - `REGISTRY_URL` - URL Docker registry (например: cr.yandex\{registry_id})  
 - `YC_OAUTH_TOKEN` — OAuth-токен сервисного аккаунта в Yandex Cloud
