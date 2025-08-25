@@ -83,10 +83,10 @@ https://github.com/netology-code/devops-diplom-yandexcloud
 А также деплоит приложение test-app и вывешивает его через балансировщик на http://test-app.pkdp.ru
 
 Для запуска нужно
-1. Установить nginx ingress install-nginx-ingress-simple.sh
-2. Задеплоить моиторинг и приложение deploy.sh
+1. Установить nginx ingress `install-nginx-ingress-simple.sh`
+2. Задеплоить моиторинг и приложение `deploy.sh`
 
-Для удаления можно воспользоваться cleanup.sh
+Для удаления можно воспользоваться `cleanup.sh`
 
 ### Поды мониторинга
 <img width="2360" height="558" alt="image" src="https://github.com/user-attachments/assets/bb791281-9f73-4fdc-a6f6-6606b11b9254" />
