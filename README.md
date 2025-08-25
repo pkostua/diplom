@@ -91,6 +91,9 @@ https://github.com/netology-code/devops-diplom-yandexcloud
 ### Поды мониторинга
 <img width="2360" height="558" alt="image" src="https://github.com/user-attachments/assets/bb791281-9f73-4fdc-a6f6-6606b11b9254" />
 
+### Grafana dashboard
+<img width="2565" height="1168" alt="image" src="https://github.com/user-attachments/assets/a1130134-bcb2-4d1c-84d7-d57394fd8a55" />
+
 
 ---
 ## Завершение
