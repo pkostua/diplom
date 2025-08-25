@@ -50,13 +50,17 @@ https://github.com/netology-code/devops-diplom-yandexcloud
 Репозиторий приложения. https://github.com/pkostua/diplom-test-app
 Для работы автоматической сборки и деплоя требуется добавить всот такие сикреты
 
-REGISTRY_URL - URL Docker registry (например: cr.yandex\{registry_id})  
-REGISTRY_PASSWORD - токен для аутентификации https://yandex.cloud/ru/docs/container-registry/operations/authentication  
-KUBE_CONFIG — содержимое kubeconfig в обычном текстовом виде, полученный на этапе подготовки инфраструктуры  
+- `REGISTRY_URL` - URL Docker registry (например: cr.yandex\{registry_id})  
+- `YC_OAUTH_TOKEN` — OAuth-токен сервисного аккаунта в Yandex Cloud
+- `YC_CLOUD_ID` — ID облака
+- `YC_FOLDER_ID` — ID каталога
+- `YC_CLUSTER_ID` — ID кластера Managed Kubernetes
 
 ### При комите происходит только сборка и отправка в реестр
 <img width="1485" height="662" alt="image" src="https://github.com/user-attachments/assets/68848f9a-25a4-4de8-b25d-06d2444cff84" />
 
+### При создании тега сборка и деплой в кластер
+<img width="1555" height="653" alt="image" src="https://github.com/user-attachments/assets/cf76d9bb-f2f9-4550-8306-4f8a744495f7" />
 
 
 
