@@ -28,11 +28,14 @@ https://github.com/netology-code/devops-diplom-yandexcloud
 
 ### Результат
 <img width="1483" height="753" alt="image" src="https://github.com/user-attachments/assets/f0c086b2-ed1d-485a-b15e-e6d00f120837" />  
-На этом этапе мы можем получить файл авторизции для управления кластером  
+
+На этом этапе мы можем получить файл авторизции для управления кластером
+
 ```bash
      yc managed-kubernetes cluster get-credentials --id cata3me84qd2p9kj3v74 --external
 ```
 В полученном конфиге нужно добавить в URL порт api k8s : 6443 
+
 ```
     server: https://51.250.93.189:6443
 ```
